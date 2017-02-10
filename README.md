@@ -1,6 +1,7 @@
 ## appshell
 
 This is my shell for cooking up new apps - calling it a shell because it's just commands I use in my interface between me and my PC to execute processes - a Command Line Interface(CLI) or Terminal
+
 [LaymensTerms: Shell aka a Graphical Window/Box also called a Command Line Interface can be used on your computer screen to type words into using your keyboard except, these words are actually commands that the shell recognizes so, what you type into the shell is better termed a command that the shell will execute within your Operating System - aftering typing a command hit the [**Enter** key] to run your command in the Shell and get a response]
 
 ## What does this appshell do using Yeoman?
