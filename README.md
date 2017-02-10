@@ -62,23 +62,25 @@ v7.5.0
 
 > > **If** you are having a lot of weird errors or warnings as a response to the `brew doctor` command in the CLI then you need to get these sorted out **before** installing Node + npm and before moving forward - get on gitter at [link](https://gitter.im/caskroom/homebrew-cask?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Title") and handle it!
 
-# Moving Forward with Git for Version Control
-
 # Installing Git to Manage your Apps Code
-## 9th - Git will allow you to manage all the changes you make to your apps code use this command in CLI to check for git....
+## 9th - Git will allow you to manage all the changes you make to your apps code - use this command in CLI to check for git....
 ```
 $  git --version
 ``` 
 * The **response** in your Terminal should be something like `git version 2.10.1 (Apple Git-78)` if git is working!
+
 ## 10th - If Git is not installed use...
 This [link](https://git-scm.com/ "Title") to install Git in your MacOS 
 ## 11th -  Again check for successful installation by repeating 9th above
 ## 12th -  If you still don't see the response above in 9th you need to....
 * Add the Git installation location (or file-path) to the file that controls your path permissions however, This location and/or file you need to update with a new PATH variable could be different depending on your MacOS version etc. so, it's best to troubleshoot this more specifically so ask me using [link](https://gitter.im/gitterHQ/nodejs?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Title") on gitter in the nodejs gitter chatroom *I'm st.fresh or @st-fresh on gitter*
+
 ## 13th - If Git is installed correctly in your MacOS it will be an app that you use from the CLI by executing many different types of commands....
 * To understand what commands you can execute in the Terminal now that Git is installed check out [link](https://try.github.io/levels/1/challenges/1 "Title") 
+
 ##14th - I recommend at this point you finish completing everything at the link in 13th above before moving forward so that....
 * You can record your coding progress after you generate the apps code next - this will help you properly maintain your work each time you finish for the day
+
 # The NBMGN Generator is being cooked up right now - standby
 *Using a PC running Windows OS -- Coming Soon*
 *Using a PC running Linux OS -- Coming Soon*
