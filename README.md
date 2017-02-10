@@ -39,7 +39,8 @@ $  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/mast
 ```
 $  brew doctor
 ```
-## 6th - Based on warnings you may be getting you should be aware of what these warnings mean - use google or....
+## 6th - Based on warnings you may be getting you should be aware of what these warnings mean - while google can be a good option....
+* Some Google answers will be misleading, i.e. asking you to use `sudo` before commands - this is bad and will make issue worse instead....
 * Enter this gitter chatroom at [link](https://gitter.im/caskroom/homebrew-cask?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Title") and I will try to get to your issue asap! *I'm st.fresh or @st-fresh on gitter*
 
 # With Homebrew added - Install Node + npm using the CLI
@@ -78,10 +79,22 @@ This [link](https://git-scm.com/ "Title") to install Git in your MacOS
 ## 13th - If Git is installed correctly in your MacOS it will be an app that you use from the CLI by executing many different types of commands....
 * To understand what commands you can execute in the Terminal now that Git is installed check out [link](https://try.github.io/levels/1/challenges/1 "Title") 
 
-##14th - I recommend at this point you finish completing everything at the link in 13th above before moving forward so that....
-* You can record your coding progress after you generate the apps code below in **15th** - this will help you properly maintain your work each time you finish for the day
+## 14th - I recommend at this point you finish completing everything at the link in 13th above before moving forward so that....
+* You can record your coding progress after you generate the apps code below in **##th** - this will help you properly maintain your work each time you finish for the day
 
-# The NBMGN Generator is being cooked up right now - standby
+## 15th - Use the following commands below in the Terminal to install the Yeoman Toolset, Check it's health, and Version ....
+```
+$  npm install -g yo
+$  yo doctor
+$  yo --version
+```
+* If experiencing weird errors about EACCESS or others refer to [link](https://docs.npmjs.com/getting-started/fixing-npm-permissions "Title") or ask me on gitter at [link](https://gitter.im/yeoman/yeoman?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Title")
+
+## 16th - Installing the FountainJS App Generator using npm in the Terminal....
+<!--* The Fountain Web App Generator perfectly provides me with what I want for my first applications
+* The Generator itself is in the  
+
+# The NBMGN Generator is being cooked up right now - standby-->
 *Using a PC running Windows OS -- Coming Soon*
 
 *Using a PC running Linux OS -- Coming Soon*
