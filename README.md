@@ -1,6 +1,6 @@
 ## my app-shell - where apps are generated
 
-This is my shell for cooking up new apps - calling it a shell because it's just commands I use in my interface between me and my PC to execute processes - in my Command Line Interface(CLI) or Terminal
+This is my shell for cooking up new apps - calling it a shell because this repo consists of commands I use in my Operating Systems Command Line Interface(CLI) or Terminal to generate Apps with Yeoman
 
 [**In Laymans Terms:** Shell aka a Graphical Window/Box also called a Command Line Interface can be used on your computer screen to type words into using your keyboard except, these words are actually commands that the shell recognizes so, whatever you type into your shell is better termed a command that the shell will execute within your Operating System - after typing a command hit the [**Enter** key] to run your command in the Shell and get a response]
 
