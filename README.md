@@ -65,52 +65,30 @@ v7.5.0
 # Moving Forward with Git for Version Control
 
 # Installing Git for Version Management of your Apps Code**
-## 9th - Git will allow you to manage all the changes you make to your apps code use this command in CLI to check for git:
-$  git --version 
-2nd - If Git is not installed use https://git-scm.com/ to install it in your MacOS 
-3rd - Again check for successful installation using this command in CLI:
-$ git --version //successful response to this command should be `git version 2.10.1 (Apple Git-78)`
-4th - If you still don't see that response above in 3rd you need to add gits installation location in your computers file directory to the file that controls your path permissions - because this could be different depending on your MacOS version etc. it's best to troubleshoot this more specifically so ask me in `https://gitter.im/gitterHQ/nodejs?utm_source=share-link&utm_medium=link&utm_campaign=share-link` the nodejs gitter chatroom (I'm st.fresh or @st-fresh on gitter)
-5th - If Git is installed correctly in your MacOS it will be an app that you use from the CLI by executing many different types of commands, to understand what commands you can execute the CLI now that Git is installed check out https://try.github.io/levels/1/challenges/1 
-6th - I recommend at this point you finish completing everything at the link in 5th above before moving forward so that you can save the app you generate next in your CLI below with Git and maintain the code properly.
-
-**
-
-
-
-
-
-
-
-
-
-
-//Using a PC running Windows OS
-
-//Using a PC running Linux OS
-
-- Generator 1: NodeJS + Bower + MongoDB + Gulp + Nodemon = generator-NBMGN
+## 9th - Git will allow you to manage all the changes you make to your apps code use this command in CLI to check for git....
+```
+$  git --version [^2]
+``` 
+[^2]: The **response** in your Terminal should be something like `git version 2.10.1 (Apple Git-78)` if git is working
+## 10th - If Git is not installed use...
+This [link](https://git-scm.com/ "Title") to install Git in your MacOS 
+## 11th -  Again check for successful installation by repeating 9th above
+## 12th -  If you still don't see the response above in 9th you need to....
+* Add the Git installation location in your computers file directory to the file that controls your path permissions however, This location and/or file you need to update with a new PATH variable could be different depending on your MacOS version etc. so, it's best to troubleshoot this more specifically so ask me using [link](https://gitter.im/gitterHQ/nodejs?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Title") on gitter in the nodejs gitter chatroom *I'm st.fresh or @st-fresh on gitter*
+##13th - If Git is installed correctly in your MacOS it will be an app that you use from the CLI by executing many different types of commands....
+* To understand what commands you can execute in the Terminal now that Git is installed check out [link](https://try.github.io/levels/1/challenges/1 "Title") 
+##14th - I recommend at this point you finish completing everything at the link in 13th above before moving forward so that....
+* You can record your coding progress after you generate the apps code next - this will help you properly maintain your work each time you finish for the day
+# The NBMGN Generator is being cooked up right now - standby
+*Using a PC running Windows OS -- Coming Soon*
+*Using a PC running Linux OS -- Coming Soon*
 
 ## Motivation
 
-This appshell was made to help me track my development of applications
-
-## Installation
-
-Provide code examples and explanations of how to get the project.
+This was made to help me track my development of applications and, easily generate from within the seed branch new apps with Yeoman commands.
 
 ## API Reference
 
-Depending on the size of the project, if it is small and simple enough the reference docs can be added to the README. For medium size to larger projects it is important to at least provide a link to where the API reference docs live.
-
-## Tests
-
-Describe and show how to run the tests with code examples.
-
 ## Contributors
 
-Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
-
 ## License
-
-A short snippet describing the license (MIT, Apache, etc.)
