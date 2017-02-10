@@ -79,10 +79,11 @@ This [link](https://git-scm.com/ "Title") to install Git in your MacOS
 * To understand what commands you can execute in the Terminal now that Git is installed check out [link](https://try.github.io/levels/1/challenges/1 "Title") 
 
 ##14th - I recommend at this point you finish completing everything at the link in 13th above before moving forward so that....
-* You can record your coding progress after you generate the apps code next - this will help you properly maintain your work each time you finish for the day
+* You can record your coding progress after you generate the apps code below in **15th** - this will help you properly maintain your work each time you finish for the day
 
 # The NBMGN Generator is being cooked up right now - standby
 *Using a PC running Windows OS -- Coming Soon*
+
 *Using a PC running Linux OS -- Coming Soon*
 
 ## Motivation
