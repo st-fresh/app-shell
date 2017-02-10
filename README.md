@@ -106,5 +106,3 @@ This was made to help me track my development of applications and, easily genera
 ## API Reference
 
 ## Contributors
-
-## License
