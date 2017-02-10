@@ -6,24 +6,33 @@ This is my shell for cooking up new apps - calling it a shell because it's just 
 
 ## What does this app-shell do using Yeoman?
 
-Yeoman actually works by typing in commands to the shell so, I have setup some things called generators that respond to certain things you type into the shell window and then, by typing in these things and hitting the [**Enter** key] you will cause the shell to respond to you with responses- here's what you can type to get started with an app in the shell:
+Yeoman see it at [link](http://yeoman.io "Title") actually works by typing in commands to the shell so, I have setup some things called generators that respond to certain things you type into the shell window and then, by typing in these things and hitting the [**Enter** key] you will cause the shell to respond to you with responses- here's what you can type to get started with an app in the shell:
 <!--
 Using a PC running MacOS
 -->
 **Get XCode setup in your CLI**
-#### 1st #### - Make sure your XCode App on your Mac is up to date, this app https://itunes.apple.com/us/app/xcode/id497799835?mt=12 
+#### 1st - Make sure your XCode App on your Mac is up to date, this app https://itunes.apple.com/us/app/xcode/id497799835?mt=12 
 ![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto,q_90/v1/270318/Screen_Shot_2017-02-10_at_12.47.46_AM_s5yvoy.png "Title")
-    - Inside your AppStore you should see "# Updates Available" <screenshot> so, if XCode is in this list then Update it
-2nd - In your CLI aka the Terminal App in MacOS execute the following command:
-$  xcode-select --install //this will install the XCode CLI/Shell Developer Tools <screenshot>
-3rd - Other responses you may get - if your CLI responds with
-`xcode-select: error: command line tools are already installed, use "Software Update" to install updates` 
-then your tools have been installed already and you may only need to update XCode in the AppStore as mentioned above in 1st
+* Inside your AppStore you should see **# Updates Available** 
+![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto,q_90/v1/270318/Screen_Shot_2017-02-10_at_12.47.05_AM_pieoc7.png "Title")
+* So, if XCode is in this list then Update it
+#### 2nd - In your CLI aka the Terminal App in MacOS execute the following command....
+```
+$  xcode-select --install //this will install the XCode CLI/Shell Developer Tools
+```
+![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto/v1/270318/Screen_Shot_2017-02-10_at_12.40.05_AM_frvsyl.png "Title")
+#### 3rd - Other responses you may get, i.e. If your CLI responds with....
+```
+xcode-select: error: command line tools are already installed, use "Software Update" to install updates
+``` 
+If you see this response then your tools have been installed already and you may only need to update XCode in the AppStore as mentioned above in **1st**
 
 **Install Homebrew package manager for MacOS using the CLI**
-1st - Installing Homebrew will allow you to install and update other tools using the Terminal so, install it using this command:
+#### 4th - Installing Homebrew will allow you to install and update other tools using the Terminal so, install it using this command....
+```
 $  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-2nd - Check for issues that Homebrew has with your system before adding tools by using this command:
+```
+#### 5th - Check for issues that Homebrew has with your system before adding tools by using this command....
 #  brew doctor
 3rd - Based on an warnings you may be getting you should be aware of what these warnings mean - use google or, jump into this gitter chatroom and I will try to get to your issue asap: `https://gitter.im/caskroom/homebrew-cask?utm_source=share-link&utm_medium=link&utm_campaign=share-link` (I'm st.fresh or @st-fresh on gitter)
 
