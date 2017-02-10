@@ -1,21 +1,24 @@
-## appshell
+## my app-shell - where apps are generated
 
-This is my shell for cooking up new apps - calling it a shell because it's just commands I use in my interface between me and my PC to execute processes - a Command Line Interface(CLI) or Terminal
+This is my shell for cooking up new apps - calling it a shell because it's just commands I use in my interface between me and my PC to execute processes - in my Command Line Interface(CLI) or Terminal
 
-[**In Laymans Terms:** Shell aka a Graphical Window/Box also called a Command Line Interface can be used on your computer screen to type words into using your keyboard except, these words are actually commands that the shell recognizes so, what you type into the shell is better termed a command that the shell will execute within your Operating System - after typing a command hit the [**Enter** key] to run your command in the Shell and get a response]
+[**In Laymans Terms:** Shell aka a Graphical Window/Box also called a Command Line Interface can be used on your computer screen to type words into using your keyboard except, these words are actually commands that the shell recognizes so, whatever you type into your shell is better termed a command that the shell will execute within your Operating System - after typing a command hit the [**Enter** key] to run your command in the Shell and get a response]
 
 ## What does this app-shell do using Yeoman?
 
-Yeoman see it at [link](http://yeoman.io "Title") actually works by typing in commands to the shell so, I have setup some things called generators that respond to certain things you type into the shell window and then, by typing in these things and hitting the [**Enter** key] you will cause the shell to respond to you with responses- here's what you can type to get started with an app in the shell:
-<!--
-Using a PC running MacOS
--->
+Yeoman see it at [link](http://yeoman.io "Title") actually works by typing in commands to the shell/CLI/Terminal so, I have setup some things called generators that respond to certain things you type into the shell window.
+
+[**In Laymans Terms:** By typing in these things and hitting the [**Enter** key] you will cause the shell to respond to you- you can start typing into your Terminal in **2nd** below - all Terminal commands in this guide are proceeded by **$** (you don't have to type **$** just type the command that proceeds afterwards)
+
+*Using a PC running MacOS*
+
 **Get XCode setup in your CLI**
-#### 1st - Make sure your XCode App on your Mac is up to date, this app https://itunes.apple.com/us/app/xcode/id497799835?mt=12 
+#### 1st - Make sure your XCode App on your Mac is up to date, this app.... https://itunes.apple.com/us/app/xcode/id497799835?mt=12 
 ![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto,q_90/v1/270318/Screen_Shot_2017-02-10_at_12.47.46_AM_s5yvoy.png "Title")
-* Inside your AppStore you should see **# Updates Available** 
+* Inside your AppStore update XCode if it appears under **Updates Available** 
 ![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto,q_90/v1/270318/Screen_Shot_2017-02-10_at_12.47.05_AM_pieoc7.png "Title")
 * So, if XCode is in this list then Update it
+
 #### 2nd - In your CLI aka the Terminal App in MacOS execute the following command....
 ```
 $  xcode-select --install //this will install the XCode CLI/Shell Developer Tools
