@@ -12,52 +12,60 @@ Yeoman see it at [link](http://yeoman.io "Title") actually works by typing in co
 
 *Using a PC running MacOS*
 
-**Get XCode setup in your CLI**
-#### 1st - Make sure your XCode App on your Mac is up to date, this app.... https://itunes.apple.com/us/app/xcode/id497799835?mt=12 
+#Get XCode setup in your CLI
+## 1st - Make sure your XCode App on your Mac is up to date, this app.... https://itunes.apple.com/us/app/xcode/id497799835?mt=12 
 ![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto,q_90/v1/270318/Screen_Shot_2017-02-10_at_12.47.46_AM_s5yvoy.png "Title")
 * Inside your AppStore update XCode if it appears under **Updates Available** 
 ![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto,q_90/v1/270318/Screen_Shot_2017-02-10_at_12.47.05_AM_pieoc7.png "Title")
 * So, if XCode is in this list then Update it
 
-#### 2nd - In your CLI aka the Terminal App in MacOS execute the following command....
+## 2nd - In your CLI aka the Terminal App in MacOS execute the following command....
 ```
-$  xcode-select --install //this will install the XCode CLI/Shell Developer Tools
+$  xcode-select --install [^1]
 ```
+[^1]: This will install the XCode CLI/Shell Developer Tools
 ![Alt](http://res.cloudinary.com/hrscywv4p/image/upload/c_limit,h_9000,w_1200,f_auto/v1/270318/Screen_Shot_2017-02-10_at_12.40.05_AM_frvsyl.png "Title")
-#### 3rd - Other responses you may get, i.e. If your CLI responds with....
+## 3rd - Other responses you may get, i.e. If your CLI responds with....
 ```
 xcode-select: error: command line tools are already installed, use "Software Update" to install updates
 ``` 
 If you see this response then your tools have been installed already and you may only need to update XCode in the AppStore as mentioned above in **1st**
 
-**Install Homebrew package manager for MacOS using the CLI**
-#### 4th - Installing Homebrew will allow you to install and update other tools using the Terminal so, install it using this command....
+#Install Homebrew package manager for MacOS using the CLI
+## 4th - Installing Homebrew will allow you to install and update other tools using the Terminal so, install it using this command....
 ```
 $  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
-#### 5th - Check for issues that Homebrew has with your system before adding tools by using this command....
-#  brew doctor
-3rd - Based on an warnings you may be getting you should be aware of what these warnings mean - use google or, jump into this gitter chatroom and I will try to get to your issue asap: `https://gitter.im/caskroom/homebrew-cask?utm_source=share-link&utm_medium=link&utm_campaign=share-link` (I'm st.fresh or @st-fresh on gitter)
+## 5th - Check for issues that Homebrew has with your system before adding tools by using this command....
+```
+$  brew doctor
+```
+## 6th - Based on warnings you may be getting you should be aware of what these warnings mean - use google or....
+* Enter this gitter chatroom at [link](https://gitter.im/caskroom/homebrew-cask?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Title") and I will try to get to your issue asap! *I'm st.fresh or @st-fresh on gitter*
 
-**With Homebrew added - Install Node + npm using the CLI**
-1st - Node + npm can be installed using the following command in the CLI:
+# With Homebrew added - Install Node + npm using the CLI
+## 7th - Node + npm can be installed using the following command in the CLI....
+```
 $  brew install Node
-2nd - To check that Node + npm properly installed execute the following command in the CLI:
-$  node --version && npm --version //response should be on 2 lines:
-`v#.#.#` 
-`#.#.#`
-for me my response was:
-`v7.5.0`
-`4.1.2`
+```
+## 8th - To check that Node + npm properly installed execute the following command in the CLI....
+```
+$  node --version && npm --version //response should be on 2 lines
+```
+* Responses should look like....
+```
+v7.5.0
+4.1.2
+```
 
------------ At this point it's safe to say that you could be struggling with environmental variables etc. and not be past a clean Homebrew install yet ------------------
 
-**If** you are having a lot of weird errors or warnings as a response to the `brew doctor` command in the CLI then you need to get these sorted out before installing Node + npm and before moving forward - get on gitter and handle it!
+> > At this point it's safe to say that you could be struggling with environmental variables etc. within your Operating System - meaning you're not past a clean Homebrew install yet!
+> > **If** you are having a lot of weird errors or warnings as a response to the `brew doctor` command in the CLI then you need to get these sorted out **before** installing Node + npm and before moving forward - get on gitter at [link](https://gitter.im/caskroom/homebrew-cask?utm_source=share-link&utm_medium=link&utm_campaign=share-link "Title") and handle it!
 
------------ Moving Forward -------------
+# Moving Forward with Git for Version Control
 
-**Installing Git for Version Management of your Apps Code**
-1st - Git will allow you to manage all the changes you make to your apps code use this command in CLI to check for git:
+# Installing Git for Version Management of your Apps Code**
+## 9th - Git will allow you to manage all the changes you make to your apps code use this command in CLI to check for git:
 $  git --version 
 2nd - If Git is not installed use https://git-scm.com/ to install it in your MacOS 
 3rd - Again check for successful installation using this command in CLI:
