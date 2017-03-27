@@ -30,7 +30,7 @@ xcode-select: error: command line tools are already installed, use "Software Upd
 ``` 
 If you see this response then your tools have been installed already and you may only need to update Xcode in the AppStore as mentioned above in **1st**
 
-#Install Homebrew package manager for MacOS using the CLI
+# Install Homebrew package manager for MacOS using the CLI
 ## 4th - Installing Homebrew will allow you to install and update other tools using the Terminal so, install it using this command....
 ```
 $  ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
